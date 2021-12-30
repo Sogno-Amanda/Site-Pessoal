@@ -1,13 +1,19 @@
+body{
+    
+}
 #perfil{
    background-image: url('imagens/bg-index.jpg') ; 
    background-size: 100%;
+   background-position: relative;
    opacity: 0.8;
-   border-radius: 15px;
-   height: 260px;   
-   padding-right: 10px;
-   margin-right: 5px;
-   
+   height: 70vh; 
+   width: 100vw;  
+   padding-right: 0px;
+   margin-right: 0px;
+   margin-left: 0px;
+   margin-top: 0px;   
 }
+
 .apresentacao{
     text-align: center;
     color: rgb(255, 255, 255);
@@ -15,4 +21,31 @@
     position: relative;
     font-family: 'Playfair Display', serif;
     font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+}
+
+.subtitulo{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    top: 30%;
+    position: relative;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+}
+
+.post{
+    padding: 15px;
+    border: rgb(0, 0, 0);
+    border: 3px;
+    margin: 15px;
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+#blog{
+    background:rgb(241, 236, 236);
+    padding: 10px;
+    border-radius: 0px;  
 }
