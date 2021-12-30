@@ -1,8 +1,18 @@
-#title, .subtitle, .post_title{
-    color: blue;
+#perfil{
+   background-image: url('imagens/bg-index.jpg') ; 
+   background-size: 100%;
+   opacity: 0.8;
+   border-radius: 15px;
+   height: 260px;   
+   padding-right: 10px;
+   margin-right: 5px;
+   
 }
-
-.post_title{
-    font-size: 16px;
-    font-style: italic;
+.apresentacao{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    top: 30%;
+    position: relative;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Raleway', sans-serif;
 }
