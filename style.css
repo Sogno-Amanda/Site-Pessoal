@@ -1,4 +1,8 @@
 body{
+    max-width: 900px;
+    margin: auto;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Raleway', sans-serif;
     
 }
 #perfil{
@@ -7,7 +11,7 @@ body{
    background-position: relative;
    opacity: 0.8;
    height: 60vh; 
-   width: 100vw;  
+   width: 100%;  
    padding-right: 0px;
    margin-right: 0px;
    margin-left: 0px;
@@ -19,35 +23,46 @@ body{
     color: rgb(255, 255, 255);
     top: 30%;
     position: relative;
-    font-family: 'Playfair Display', serif;
-    font-family: 'Raleway', sans-serif;
     font-size: 50px;
 }
 
+a{
+    text-decoration: none;
+    color: cornflowerblue;
+}
 .subtitulo{
     text-align: center;
     color: rgb(255, 255, 255);
     top: 30%;
     position: relative;
-    font-family: 'Playfair Display', serif;
-    font-family: 'Raleway', sans-serif;
     font-size: 35px;
 }
 
 .post{
-    padding: 15px;
+    padding: 15px 10px 5px 0;
     border: 3px;
-    margin: 15px;
+    margin-bottom: 15px;
     font-size: 16px;
-    font-family: 'Playfair Display', serif;
-    font-family: 'Raleway', sans-serif;
 }
+
 .post_titulo{
     font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.post_conteudo{
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: capitalize;
 }
 
 #blog{
     background:rgb(241, 236, 236);
     padding: 10px;
     border-radius: 0px;  
+}
+
+.lista_contatos{
+    list-style-type: none;
+    padding-left: 15px;
 }
